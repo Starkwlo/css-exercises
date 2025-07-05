@@ -15,6 +15,7 @@ img {
   display: flex;
   justify-content: center;
   justify-self: stretch;
+  margin: 32px;
 }
 
 .items {
@@ -28,6 +29,10 @@ img {
 
 .item1, .item2, .item3, .item4 {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 52px;
+  width: 200px;
 }
 
 /* do not edit this footer */
