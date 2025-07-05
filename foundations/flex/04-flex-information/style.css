@@ -1,7 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
-  justify-content: center;
+  flex-direction:column;
 }
 
 img {
@@ -14,6 +14,7 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  justify-self: stretch;
 }
 
 .items {
@@ -21,6 +22,13 @@ img {
   justify-content: space-around;
 }
 
+.text {
+  display: flex;
+}
+
+.item1, .item2, .item3, .item4 {
+  display: flex;
+}
 
 /* do not edit this footer */
 .footer {
