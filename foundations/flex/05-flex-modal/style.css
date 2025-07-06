@@ -74,8 +74,12 @@ button.cancel {
 }
 
 .header {
+  display: flex;
   font-weight:bolder;
   font-size: large;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .text {
